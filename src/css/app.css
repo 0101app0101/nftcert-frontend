@@ -6701,6 +6701,7 @@ Pagination
     position: relative;
     -webkit-transition: var(--transition);
     transition: var(--transition);
+    text-decoration: none;
 }
 
 .mainmenu>li>a::before {
@@ -9998,4 +9999,21 @@ Pagination
         width: 25px;
         font-size: small;
     }
+}
+.connect-wallet {
+    height: 40px;
+    width: 180px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(to left, #ab68ca, #de67a3); 
+    color: #fff;
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+    margin-right: 30px;
+}
+.wallet{
+    font-size: xx-large;
+    margin-right: 20px;
+    color:  #ab68ca; 
 }
