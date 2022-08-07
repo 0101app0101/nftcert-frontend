@@ -3173,3 +3173,70 @@ font-size: 16px;
     color: var(--color-1);
     text-shadow: unset;
 }
+.slider-content-align{
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.slider-cert-bg{
+    background-color: var(--color-4) !important;
+    border: 2px solid rgb(99 69 237 / 83%) !important;
+}
+.cert-logo{
+    -webkit-border-radius: unset !important;
+    border-radius: unset !important;
+}
+.content-flex{
+    display: flex;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 1300px) {
+ .slider-inner{
+    display: block !important;
+    text-align: center;
+ }
+ .slider-content-align{
+    width:100%;
+ }
+ .button-slider{
+    margin-bottom: 80px;
+ }
+ .sub-heading{
+    padding-right: unset !important;
+ }
+  }
+
+  @media only screen and (max-width: 500px) {
+
+
+.button-verify-BC{
+    margin-top: unset;
+    width: unset !important;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.button-verify-BC a{
+    width: 100%;
+    border-radius: 100px;
+}
+
+.contact-pallet h6{
+    font-size: small;
+}
+  }
+  @media only screen and (max-width: 370px) {
+    .contact-pallet h6{
+        font-size: x-small;
+    }
+  }
+.contact-info{
+    padding: 60px 40px;
+}
+
+.contact-pallet{
+    padding: 20px 30px !important;
+    background-color: var(--color-3) !important;
+    box-shadow: unset;
+}

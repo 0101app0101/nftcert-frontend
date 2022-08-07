@@ -13,7 +13,7 @@ const LatestCollections = props => {
                     <div className="sc-heading style-2">
                         <div className="content-left">
                             <div className="inner">
-                                <h3>Latest Collections</h3>
+                                <h3>Popular Certificate Template Collections</h3>
                                 <p className="desc">Most popular gaming digital nft market place </p>
                             </div>
                         </div>

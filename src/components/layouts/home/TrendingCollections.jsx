@@ -3,25 +3,25 @@ import { Link } from 'react-router-dom'
 
 const TrendingCollections = props => {
     const data = props.data
-  return (
-    <section className="tf-trendy-collections tf-section">
-        <div className="container">
-            <div className="row">
-                <div className="col-md-12">
+    return (
+        <section className="tf-trendy-collections tf-section">
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-12">
                     <div className="sc-heading style-2">
-                        <div className="content-left">
-                            <div className="inner">
-                                <h3>Trendy Collection</h3>
-                                <p className="desc">Most popular gaming digital nft market place </p>
-                            </div>
+                    <div className="content-left">
+                        <div className="inner">
+                            <h3>Popular Certificate Templates</h3>
+                            <p className="desc">Most popular NFT certificates to edit from</p>
                         </div>
                     </div>
                 </div>
-                <div className='trendy'>
-                    {
-                        data.map((item,index) =>(
-                            <div key={index} className='col-lg-4 col-md-6 col-12'>
-                                <div className="sc-product-item style-2">
+                    </div>
+                    <div className='trendy'>
+                        {
+                            data.map((item, index) => (
+                                <div key={index} className='col-lg-4 col-md-6 col-12'>
+                                    <div className="sc-product-item style-2">
                                         <div className="product-img">
                                             <img src={item.img} alt="Bidzen" />
                                             <Link to="/connect-wallet"
@@ -48,15 +48,14 @@ const TrendingCollections = props => {
                                             </div>
                                         </div>
                                     </div>
-                            </div>
-                        ))
-                    }
-                </div>
+                                </div>
+                            ))}
+                    </div>
 
+                </div>
             </div>
-        </div>
-    </section>
-  );
+        </section>
+    );
 };
 
 export default TrendingCollections;

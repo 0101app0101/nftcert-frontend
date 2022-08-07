@@ -1430,7 +1430,7 @@ blockquote .author::before {
     justify-content: space-between;
 }
 
-.sc-product-item.style-4 .product-content .product-author .button-wishlish {
+.button-wishlish {
     background   : linear-gradient(130.5deg, #6345ED 17.35%, #DC39FC 78.23%);
     border-radius: 73px;
     margin-right : 9px;
@@ -1442,7 +1442,7 @@ blockquote .author::before {
     margin-top: 0;
 }
 
-.sc-product-item.style-4 .product-content .product-author .button-wishlish a {
+.button-wishlish a {
     display         : inline-block;
     width           : 30px;
     height          : 30px;
@@ -1454,11 +1454,11 @@ blockquote .author::before {
     text-align      : center;
 }
 
-.sc-product-item.style-4 .product-content .product-author .button-wishlish a i {
+.button-wishlish a i {
     color: #DC39FC;
 }
 
-.sc-product-item.style-4 .product-content .product-author .button-wishlish span {
+.button-wishlish span {
     font-size  : 18px;
     font-weight: 700;
     color      : #fff;
@@ -1696,10 +1696,12 @@ blockquote .author::before {
 }
 
 .sc-wallet.style-2 {
-    background   : rgba(255, 255, 255, 0.05) !important;
     border       : 1px solid rgba(255, 255, 255, 0.05);
     margin-bottom: 0;
     padding-left: 8px;
+    background-color: var(--color-3);
+    border: 1px solid var(--border-color-1);
+    border-radius: 20px;
 }
 
 .sc-wallet.style-2 .icon {
@@ -1734,7 +1736,7 @@ blockquote .author::before {
 }
 
 .sc-wallet.style-2 .content h5 a {
-    color: #fff;
+    color: var(--color-1);
 }
 .sc-wallet.style-2 .content h5 a:hover {
     color: var(--primary-color3);
@@ -1742,13 +1744,13 @@ blockquote .author::before {
 .sc-wallet.style-2 .content p {
     line-height  : 25px;
     margin-bottom: 13px;
-    color: #fff;
+    color: var(--color-1);
 }
 
 .sc-wallet.style-2 .content .read-more i {
     font-size  : 19px;
     font-weight: 400;
-    color: #fff;
+    color: var(--color-1);
 }
 
 .sc-wallet.style-2:hover .icon,
@@ -1840,10 +1842,10 @@ blockquote .author::before {
     margin-bottom: 86px;
 }
 .sc-heading.style-2.create-and-sell h3 {
-   color: #fff;
+    color: var(--color-1);
 }
 .sc-heading.style-2.create-and-sell .desc {
-    color: #FFFFFF99;
+    color: var(--color-1);
 }
 
 .ripple::before {
@@ -2276,7 +2278,7 @@ blockquote .author::before {
     margin-bottom: 0;
 }
 
-.login-page .other-login {
+.other-login {
     position     : relative;
     width        : 245px;
     height       : 101px;
@@ -2288,35 +2290,35 @@ blockquote .author::before {
     margin-top   : 69px;
 }
 
-.login-page .widget-social {
+.widget-social {
     margin-top: 38px;
 }
 
-.login-page .widget-social ul li a {
+.login-page .widget-social ul li a, .contact-info .widget-social ul li a {
     width    : 40px;
     height   : 40px;
     font-size: 15px;
 }
 
-.login-page .text {
+.text {
     position        : absolute;
     top             : -21px;
     left            : 50%;
     transform       : translateX(-50%);
-    width           : 50px;
     height          : 40px;
     line-height     : 40px;
     background: #6345ED;
     border-radius   : 7px;
     text-align      : center;
     color           : #fff;
+    padding: 0 5%;
 }
 
-.login-page .widget-social ul {
+.widget-social ul {
     justify-content: center;
 }
 
-.login-page .widget-social a {
+.login-page .widget-social a, .contact-info .widget-social a{
     background: #6345ED;
 }
 .login-page .form-create-item-content .form-background {
@@ -2328,7 +2330,7 @@ blockquote .author::before {
 .login-page.register-page #create-item-1 .input-group input {
     margin-bottom: 0;
 }
-.login-page.register-page .other-login {
+.other-login {
     margin-top: 80px;
 }
 
@@ -2470,10 +2472,6 @@ blockquote .author::before {
     padding: 130px 0 150px 0;
 }
 
-.slider-inner .slider-content{
-    width: 45.6%;
-    padding-top: 113px;
-}
 
 .slider-inner .slider-content .heading,
 .slider-inner .slider-content .sub-heading {
@@ -3151,7 +3149,7 @@ flex-shrink: 0;
 .item-details-page .author-bid .author-item .infor {
     margin-top: -1px;
 }
-.item-details-page .infor-bid {
+.infor-bid {
     background: var(--color-4);
 box-shadow: 4px 4px 60px rgba(99, 69, 237, 0.15);
 border-radius: 8px;
@@ -3162,6 +3160,7 @@ align-items: end;
 font-size: 13px;
 margin-right: 17px;
 margin-bottom: 31px;
+border: 1px solid var(--border-color-1);
 }
 .item-details-page .infor-bid h6 {
     margin-bottom: 7px;

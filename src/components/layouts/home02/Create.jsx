@@ -4,15 +4,15 @@ import { Link } from 'react-router-dom'
 const Create = props => {
     const data = props.data
     return (
-    <section className="create-and-sell tf-section bg-color-14161B">
+    <section className="create-and-sell tf-section">
         <div className="container">
             <div className="row">
                 <div className="col-md-12">
                     <div className="sc-heading style-2 create-and-sell">
                         <div className="content-left">
                             <div className="inner">
-                                <h3>Create and sell your NFTs</h3>
-                                <p className="desc">Most popular gaming digital nft market place </p>
+                                <h3>How It Works?</h3>
+                                <p className="desc">We make creating your certificates easier and completely authentic which can be verified using Blockchain</p>
                             </div>
                         </div>
                     </div>
